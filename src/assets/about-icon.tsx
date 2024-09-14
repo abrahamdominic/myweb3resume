@@ -3,7 +3,7 @@ const AboutIcon: React.FC = ({ className, height }: { className: string }) => (
 		<svg
 			fill='#000000'
 			height={height ?? '200px'}
-			width='200px'
+			width={height ?? '200px'}
 			version='1.1'
 			id='Capa_1'
 			xmlns='http://www.w3.org/2000/svg'
