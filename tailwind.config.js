@@ -7,7 +7,10 @@ export default {
 				'full/5rem': 'calc(100% - 5rem)'
 			},
 			fontFamily: {
+				MontserratAlternates: 'Montserrat Alternates',
 				ProtestGuerrilla: 'Protest Guerrilla',
+				JakartaSans: 'Jakarta Sans',
+				Montserrat: 'Montserrat',
 				NerkoOne: 'Nerko One'
 			}
 		}

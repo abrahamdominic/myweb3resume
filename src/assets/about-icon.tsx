@@ -1,9 +1,17 @@
-const AboutIcon: React.FC = ({ className, height }: { className: string }) => (
+const AboutIcon: React.FC = ({
+	className,
+	height = '200px',
+	color = '#000000'
+}: {
+	className: string
+	height: string
+	color: string
+}) => (
 	<div className={className}>
 		<svg
-			fill='#000000'
-			height={height ?? '200px'}
-			width={height ?? '200px'}
+			fill={color}
+			height={height}
+			width={height}
 			version='1.1'
 			id='Capa_1'
 			xmlns='http://www.w3.org/2000/svg'

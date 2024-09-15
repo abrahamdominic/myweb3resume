@@ -1,8 +1,14 @@
-const ServiceIcon: React.FC = ({ className }: { className: string }) => (
+const ServiceIcon: React.FC = ({
+	className,
+	color = '#000000'
+}: {
+	className: string
+	color: string
+}) => (
 	<div className={className}>
 		<svg
 			viewBox='0 0 1024 1024'
-			fill='#000000'
+			fill={color}
 			class='icon'
 			version='1.1'
 			xmlns='http://www.w3.org/2000/svg'
