@@ -1,7 +1,7 @@
-type headerLinks = 'home' | 'services' | 'threads' | 'reviews'
+type HeaderLinks = 'home' | 'services' | 'threads' | 'reviews'
 
 interface HeaderProps {
-	active: headerLinks
+	active: HeaderLinks
 }
 
-export { headerLinks, HeaderProps }
+export { HeaderLinks, HeaderProps }
