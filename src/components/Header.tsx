@@ -149,66 +149,66 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 						</a>
 						{/* SERVICES ICON */}
 						<a href='#services-tab'>
-						<div
-							className='flex flex-col p-6 gap-1 items-center header-icon'
-							id='header-icon-services'
-						>
-							<ServiceIcon
-								className='w-14'
-								color={
-									activeLinks === 'services' ? '#007100' : '#000000'
-								}
-							/>
-							<span
-								className={`text-xl ${
-									activeLinks === 'services' && 'text-green-700'
-								}`}
+							<div
+								className='flex flex-col p-6 gap-1 items-center header-icon'
+								id='header-icon-services'
 							>
-								Services
-							</span>
-						</div>
+								<ServiceIcon
+									className='w-14'
+									color={
+										activeLinks === 'services' ? '#007100' : '#000000'
+									}
+								/>
+								<span
+									className={`text-xl ${
+										activeLinks === 'services' && 'text-green-700'
+									}`}
+								>
+									Services
+								</span>
+							</div>
 						</a>
 						{/* THREAD LAYER ICON */}
 						<a href='#threads-tab'>
-						<div
-							className='flex flex-col p-6 gap-1 items-center header-icon'
-							id='header-icon-threads'
-						>
-							<LayerIcon
-								className='w-14'
-								color={
-									activeLinks === 'threads' ? '#007100' : '#000000'
-								}
-							/>
-							<span
-								className={`text-xl ${
-									activeLinks === 'threads' && 'text-green-700'
-								}`}
+							<div
+								className='flex flex-col p-6 gap-1 items-center header-icon'
+								id='header-icon-threads'
 							>
-								Threads
-							</span>
-						</div>
+								<LayerIcon
+									className='w-14'
+									color={
+										activeLinks === 'threads' ? '#007100' : '#000000'
+									}
+								/>
+								<span
+									className={`text-xl ${
+										activeLinks === 'threads' && 'text-green-700'
+									}`}
+								>
+									Threads
+								</span>
+							</div>
 						</a>
 						{/* REVIEWS ICON */}
 						<a href='#reviews-tab'>
-						<div
-							className='flex flex-col gap-1 p-6 items-center header-icon'
-							id='header-icon-reviews'
-						>
-							<ReviewsIcon
-								className='w-14'
-								color={
-									activeLinks === 'reviews' ? '#007100' : '#000000'
-								}
-							/>
-							<span
-								className={`text-xl ${
-									activeLinks === 'reviews' && 'text-green-700'
-								}`}
+							<div
+								className='flex flex-col gap-1 p-6 items-center header-icon'
+								id='header-icon-reviews'
 							>
-								Reviews
-							</span>
-						</div>
+								<ReviewsIcon
+									className='w-14'
+									color={
+										activeLinks === 'reviews' ? '#007100' : '#000000'
+									}
+								/>
+								<span
+									className={`text-xl ${
+										activeLinks === 'reviews' && 'text-green-700'
+									}`}
+								>
+									Reviews
+								</span>
+							</div>
 						</a>
 					</div>
 				</div>
