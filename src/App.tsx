@@ -1,5 +1,10 @@
 import Header from './components/Header'
+import Icon from './assets/icons/icon.png'
 import QuoteIcon from './assets/icons/quote.png'
+import TwitterIcon from './assets/icons/twitter.png'
+import DiscordIcon from './assets/icons/discord.png'
+import TelegramIcon from './assets/icons/telegram.png'
+import LinkedInLogo from './assets/icons/linkedin-logo.png'
 
 export default function App(): React.FC {
 	return (
@@ -38,7 +43,7 @@ export default function App(): React.FC {
 					</a>
 				</div>
 				<div className='mt-5'>
-					<img src='https://ernestofweb3.netlify.app/images/real%20hero.png' />
+					<img src={Icon} />
 				</div>
 			</div>
 
@@ -269,28 +274,16 @@ export default function App(): React.FC {
 
 				<div className='mt-8 flex justify-evenly'>
 					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img
-							className='w-full'
-							src='https://ernestofweb3.netlify.app/images/twitter%20(1).png'
-						/>
+						<img className='w-full' src={TwitterIcon} />
 					</div>
 					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img
-							className='w-full'
-							src='https://ernestofweb3.netlify.app/images/telegram.png'
-						/>
+						<img className='w-full' src={TelegramIcon} />
 					</div>
 					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img
-							className='w-full'
-							src='https://ernestofweb3.netlify.app/images/linkedin-logo.png'
-						/>
+						<img className='w-full' src={LinkedInLogo} />
 					</div>
 					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img
-							className='w-full'
-							src='https://ernestofweb3.netlify.app/images/discord.png'
-						/>
+						<img className='w-full' src={DiscordIcon} />
 					</div>
 				</div>
 
