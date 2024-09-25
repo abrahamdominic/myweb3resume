@@ -14,8 +14,8 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 	const [initialAction, setInitialAction] = React.useState<HeaderLinks>(active)
 
 	const categoryLinks = {
-		card: React.useRef<HTMLDivElement>(null),
-		wrapper: React.useRef<HTMLDivElement>(null)
+		card: React.useRef<HTMLElement>(null),
+		wrapper: React.useRef<HTMLElement>(null)
 	}
 
 	React.useEffect(() => {
@@ -42,17 +42,19 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 	}, [])
 
 	return (
-		<header>
-			<nav className='md:h-24 fixed top-0 px-7 h-20 w-full flex justify-between items-center bg-transparent backdrop-blur-md z-40'>
-				<div className='font-NerkoOne'>
-					<div className='md:text-[40px] text-2xl leading-5 md:leading-7'>
-						<span>Abraham</span>
-						<span> Domenick</span>
-					</div>
-					<div className='md:text-3xl text-right text-lg'>
-						<span>Web3</span>
-						<span className='text-green-700'> Enthusiast</span>
-					</div>
+		<header className='h-20 md:h-24'>
+			<nav className='h-20 md:h-24 fixed top-0 px-7 w-full flex justify-between items-center bg-blue-200 z-40'>
+				<div>
+					<a href='/'>
+						<div className='md:text-[40px] text-2xl font-ProtestGuerrilla leading-5 md:leading-7'>
+							<span>Abraham</span>
+							<span> Domenick</span>
+						</div>
+						<div className='md:text-3xl font-NerkoOne text-right text-lg'>
+							<span>Web3</span>
+							<span className='text-green-700'> Enthusiast</span>
+						</div>
+					</a>
 				</div>
 
 				{/* DESKTOP NAV LINKS */}
@@ -125,23 +127,28 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 				>
 					<div className='max-w-[80%] bg-white rounded-2xl bg-opacity-60 flex flex-wrap justify-evenly font-NerkoOne'>
 						{/* HOME ICON */}
-						<div
-							className='flex flex-col p-6 gap-1 items-center header-icon'
-							id='header-icon-home'
-						>
-							<HomeIcon
-								className='w-14'
-								color={activeLinks === 'home' ? '#007100' : '#000000'}
-							/>
-							<span
-								className={`text-xl ${
-									activeLinks === 'home' && 'text-green-700'
-								}`}
+						<a href='#home-tab'>
+							<div
+								className='flex flex-col p-6 gap-1 items-center header-icon'
+								id='header-icon-home'
 							>
-								Home
-							</span>
-						</div>
+								<HomeIcon
+									className='w-14'
+									color={
+										activeLinks === 'home' ? '#007100' : '#000000'
+									}
+								/>
+								<span
+									className={`text-xl ${
+										activeLinks === 'home' && 'text-green-700'
+									}`}
+								>
+									Home
+								</span>
+							</div>
+						</a>
 						{/* SERVICES ICON */}
+						<a href='#services-tab'>
 						<div
 							className='flex flex-col p-6 gap-1 items-center header-icon'
 							id='header-icon-services'
@@ -160,7 +167,9 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 								Services
 							</span>
 						</div>
+						</a>
 						{/* THREAD LAYER ICON */}
+						<a href='#threads-tab'>
 						<div
 							className='flex flex-col p-6 gap-1 items-center header-icon'
 							id='header-icon-threads'
@@ -179,7 +188,9 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 								Threads
 							</span>
 						</div>
+						</a>
 						{/* REVIEWS ICON */}
+						<a href='#reviews-tab'>
 						<div
 							className='flex flex-col gap-1 p-6 items-center header-icon'
 							id='header-icon-reviews'
@@ -198,6 +209,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 								Reviews
 							</span>
 						</div>
+						</a>
 					</div>
 				</div>
 			</div>
