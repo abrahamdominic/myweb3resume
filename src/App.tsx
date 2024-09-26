@@ -70,7 +70,7 @@ export default function App(): React.FC {
 					</p>
 					<img
 						className='w-[70%] mx-auto mt-10'
-						src='https://ernestofweb3.netlify.app/images/_all_the_data_re_hh4w.svg'
+						src='reviews/_all_the_data_re_hh4w.svg'
 					/>
 				</div>
 
@@ -84,7 +84,7 @@ export default function App(): React.FC {
 					</p>
 					<img
 						className='w-[70%] mx-auto mt-10'
-						src='https://ernestofweb3.netlify.app/images/writer.svg'
+						src='reviews/writer.svg'
 					/>
 				</div>
 
@@ -98,7 +98,7 @@ export default function App(): React.FC {
 					</p>
 					<img
 						className='w-[70%] mx-auto mt-10'
-						src='https://ernestofweb3.netlify.app/images/_the_search_s0xf.svg'
+						src='reviews/_the_search_s0xf.svg'
 					/>
 				</div>
 			</div>
@@ -125,7 +125,7 @@ export default function App(): React.FC {
 						/>
 					</div>
 					<p className='text-xl mb-4 font-semibold'>
-						51% Attack How Blockchain can be Hacked.
+						A Blockchain can be Hacked by 51% Attack
 					</p>
 					<p className='text-sm'>
 						Here are ways a blockchain can be hacked and how to prevent it.
