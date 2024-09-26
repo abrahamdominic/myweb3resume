@@ -110,7 +110,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 
 			{/** CATEGORY BANNER */}
 			<div
-				className={`md:hidden fixed transition-all duration-300 flex-col inset-0 bg-black bg-opacity-60 backdrop-blur-sm z-50 category-wrapper ${
+				className={`md:hidden fixed transition-all duration-300 flex-col inset-0 bg-black bg-opacity-70 backdrop-blur-sm z-50 category-wrapper ${
 					category ? 'flex opacity-100' : 'opacity-0 pointer-events-none'
 				}`}
 				ref={categoryLinks.wrapper}
@@ -125,7 +125,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
 					className='w-full h-full flex items-center justify-center'
 					ref={categoryLinks.card}
 				>
-					<div className='max-w-[80%] bg-white rounded-2xl bg-opacity-60 flex flex-wrap justify-evenly font-NerkoOne'>
+					<div className='max-w-[80%] bg-white rounded-2xl bg-opacity-80 flex flex-wrap justify-evenly font-NerkoOne'>
 						{/* HOME ICON */}
 						<a href='#home-tab'>
 							<div
