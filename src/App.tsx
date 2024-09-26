@@ -31,12 +31,12 @@ export default function App(): React.FC {
 					connections within the crypto space.
 				</p>
 				<div className='mt-8 md:mt-10 flex gap-2 font-Montserrat font-medium text-[13px]'>
-					<a href='#'>
+					<a href='https://t.me/abdominic1'>
 						<button className='transition rounded-full bg-green-600 text-white hover:text-green-600 hover:bg-white border border-green-600 px-2 md:px-3 py-3'>
 							Contact me
 						</button>
 					</a>
-					<a href='#'>
+					<a href='https://t.me/celestialchads'>
 						<button className='transition rounded-full text-green-600 hover:bg-green-600 hover:text-white border border-green-600 px-2 md:px-3 py-3'>
 							Join my community
 						</button>
@@ -289,8 +289,7 @@ export default function App(): React.FC {
 
 				<div className='text-center mt-8 text-sm font-medium font-MontserratAlternates'>
 					<p>
-						&copy; <span className='text-green-600'>2024</span> Ernest of
-						Web3.
+						&copy; <span className='text-green-600'>2024</span> Abraham Domenick.
 					</p>
 					<p>All rights reserved.</p>
 				</div>
