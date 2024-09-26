@@ -61,7 +61,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
         <div className='hidden md:block'>
           <ul className='flex gap-9'>
             <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 ${
+              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
                 activeLinks === 'home' && 'bg-white shadow-sm'
               }`}
               onClick={() => setInitialAction('home')}
@@ -71,7 +71,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
               <a href='#home-tab'>Home</a>
             </li>
             <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 ${
+              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
                 activeLinks === 'services' && 'bg-white shadow-sm'
               }`}
               onClick={() => setInitialAction('services')}
@@ -81,7 +81,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
               <a href='#services-tab'>Services</a>
             </li>
             <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 ${
+              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
                 activeLinks === 'threads' && 'bg-white shadow-sm'
               }`}
               onClick={() => setInitialAction('threads')}
@@ -91,7 +91,7 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
               <a href='#threads-tab'>Threads</a>
             </li>
             <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 ${
+              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
                 activeLinks === 'reviews' && 'bg-white shadow-sm'
               }`}
               onClick={() => setInitialAction('reviews')}
