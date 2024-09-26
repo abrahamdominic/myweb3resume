@@ -207,7 +207,7 @@ export default function App(): React.FC {
 					<div className='flex gap-3 mt-2'>
 						<img
 							className='w-12 rounded-full'
-							src='/reviews/david-jackson.png'
+							src='/reviews/mogu.jpg'
 						/>
 						<div className='flex flex-col justify-between'>
 							<p className='font-MontserratAlternates font-semibold'>
