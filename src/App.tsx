@@ -149,7 +149,9 @@ export default function App(): React.FC {
 						Discord Server Bot Series. Find out more from the thread.
 					</p>
 					<p className='text-sm'>
-						Are you a Community Manager or Moderator who don't know how to set up Discord bot in this thread you will find valuable insights on how to set up a discord  bots.
+						Are you a Community Manager or Moderator who don't know how to
+						set up Discord bot in this thread you will find valuable
+						insights on how to set up a discord bots.
 					</p>
 					<a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
 						<button className='px-4 py-2 rounded-full bg-white border border-gray-200 shadow-md mt-5 font-Montserrat text-sm font-medium text-green-600'>
@@ -182,45 +184,41 @@ export default function App(): React.FC {
 						transactions i have had in a while.”
 					</p>
 
-					
-						<div className='flex gap-3 mt-2'>
-							<img
-								className='w-12 rounded-full'
-								src='https://ernestofweb3.netlify.app/images/Alex%20Stage%20Community.jpg'
-							/>
-							<div className='flex flex-col justify-between'>
-								<p className='font-MontserratAlternates font-semibold'>
-									Adtoshi
-								</p>
-								<p className='text-[12px]'>
-									Founder, Acomunity DAO
-								</p>
-							</div>
+					<div className='flex gap-3 mt-2'>
+						<img
+							className='w-12 rounded-full'
+							src='/reviews/adtoshi.jpg'
+						/>
+						<div className='flex flex-col justify-between'>
+							<p className='font-MontserratAlternates font-semibold'>
+								Adtoshi
+							</p>
+							<p className='text-[12px]'>Founder, Acomunity DAO</p>
 						</div>
-					
+					</div>
 				</div>
 
 				<div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates bg-white'>
 					<img src={QuoteIcon} />
 
 					<p className='text-md mt-5 mb-4 font-semibold'>
-						“The Discord Server built by Dominic is a professional server and i really love working with him, his community building skill is top notch.”
+						“The Discord Server built by Dominic is a professional server
+						and i really love working with him, his community building
+						skill is top notch.”
 					</p>
 
-					
-						<div className='flex gap-3 mt-2'>
-							<img
-								className='w-12 rounded-full'
-								src='https://ernestofweb3.netlify.app/images/Apexx.jpg'
-							/>
-							<div className='flex flex-col justify-between'>
-								<p className='font-MontserratAlternates font-semibold'>
-									David Crypto Jackson
-								</p>
-								<p className='text-[12px]'>Co-Founder, Green Tv DAO</p>
-							</div>
+					<div className='flex gap-3 mt-2'>
+						<img
+							className='w-12 rounded-full'
+							src='/reviews/david-jackson.jpg'
+						/>
+						<div className='flex flex-col justify-between'>
+							<p className='font-MontserratAlternates font-semibold'>
+								David Crypto Jackson
+							</p>
+							<p className='text-[12px]'>Co-Founder, Green Tv DAO</p>
 						</div>
-					
+					</div>
 				</div>
 			</div>
 
@@ -271,25 +269,32 @@ export default function App(): React.FC {
 				</div>
 
 				<div className='mt-8 flex justify-evenly'>
-					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img className='w-full' src={TwitterIcon} />
-					</div>
-					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img className='w-full' src={TelegramIcon} />
-					</div>
-					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img className='w-full' src={LinkedInLogo} />
-					</div>
-					
-					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
-						<img className='w-full' src={DiscordIcon} />
-					</div>
+					<a href='https://twitter-link'>
+						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
+							<img className='w-full' src={TwitterIcon} />
+						</div>
+					</a>
+					<a href='https://telegram-link'>
+						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
+							<img className='w-full' src={TelegramIcon} />
+						</div>
+					</a>
+					<a href='https://linkedin-link'>
+						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
+							<img className='w-full' src={LinkedInLogo} />
+						</div>
+					</a>
+					<a href='https://discord-link'>
+						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
+							<img className='w-full' src={DiscordIcon} />
+						</div>
+					</a>
 				</div>
-				
 
 				<div className='text-center mt-8 text-sm font-medium font-MontserratAlternates'>
 					<p>
-						&copy; <span className='text-green-600'>2024</span> Abraham Domenick.
+						&copy; <span className='text-green-600'>2024</span> Abraham
+						Domenick.
 					</p>
 					<p>All rights reserved.</p>
 				</div>
