@@ -197,6 +197,26 @@ export default function App(): React.FC {
 						</div>
 					</div>
 				</div>
+				<div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates bg-white'>
+					<img src={QuoteIcon} />
+
+					<p className='text-md mt-5 mb-4 font-semibold'>
+						“I love working with Dominic he's so good in what he does.”
+					</p>
+
+					<div className='flex gap-3 mt-2'>
+						<img
+							className='w-12 rounded-full'
+							src='/reviews/david-jackson.png'
+						/>
+						<div className='flex flex-col justify-between'>
+							<p className='font-MontserratAlternates font-semibold'>
+								Mogu
+							</p>
+							<p className='text-[12px]'>Founder, Green Tv DAO</p>
+						</div>
+					</div>
+				</div>
 
 				<div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates bg-white'>
 					<img src={QuoteIcon} />
@@ -204,7 +224,7 @@ export default function App(): React.FC {
 					<p className='text-md mt-5 mb-4 font-semibold'>
 						“The Discord Server built by Dominic is a professional server
 						and i really love working with him, his community building
-						skill is top notch.”
+						skills is top notch.”
 					</p>
 
 					<div className='flex gap-3 mt-2'>
