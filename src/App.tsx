@@ -304,7 +304,7 @@ export default function App(): React.FC {
 							<img className='w-full' src={LinkedInLogo} />
 						</div>
 					</a>
-					<a href='https://di'>
+					<a href='#'>
 						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 							<img className='w-full' src={DiscordIcon} />
 						</div>
