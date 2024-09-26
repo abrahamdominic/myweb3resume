@@ -146,13 +146,12 @@ export default function App(): React.FC {
 						/>
 					</div>
 					<p className='text-xl mb-4 font-semibold'>
-						Always Choose Value. Find out more from the thread.
+						Discord Server Bot Series. Find out more from the thread.
 					</p>
 					<p className='text-sm'>
-						As a job hunter, I've always been the type not to focus on
-						price but the value I can bring to the team.
+						Are you a Community Manager or Moderator who don't know how to set up Discord bot in this thread you will find valuable insights on how to set up a discord  bots.
 					</p>
-					<a href='#'>
+					<a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
 						<button className='px-4 py-2 rounded-full bg-white border border-gray-200 shadow-md mt-5 font-Montserrat text-sm font-medium text-green-600'>
 							Learn More »
 						</button>
@@ -179,11 +178,11 @@ export default function App(): React.FC {
 					<img src={QuoteIcon} />
 
 					<p className='text-md mt-5 mb-4 font-semibold'>
-						“Working with Ernest has been one of the most stress free
+						“Working with Dominic has been one of the most stress free
 						transactions i have had in a while.”
 					</p>
 
-					<a href='https://x.com/dave_conco'>
+					
 						<div className='flex gap-3 mt-2'>
 							<img
 								className='w-12 rounded-full'
@@ -191,25 +190,24 @@ export default function App(): React.FC {
 							/>
 							<div className='flex flex-col justify-between'>
 								<p className='font-MontserratAlternates font-semibold'>
-									Dave Conco
+									Adtoshi
 								</p>
 								<p className='text-[12px]'>
-									Founder, PhpSlides Framework
+									Founder, Acomunity DAO
 								</p>
 							</div>
 						</div>
-					</a>
+					
 				</div>
 
 				<div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates bg-white'>
 					<img src={QuoteIcon} />
 
 					<p className='text-md mt-5 mb-4 font-semibold'>
-						“The thread contest hosted by Ernest brought us lots of
-						visibility, volume & investors. His dedication is unbeatable.”
+						“The Discord Server built by Dominic is a professional server and i really love working with him, his community building skill is top notch.”
 					</p>
 
-					<a href='https://x.com/dave_conco'>
+					
 						<div className='flex gap-3 mt-2'>
 							<img
 								className='w-12 rounded-full'
@@ -217,12 +215,12 @@ export default function App(): React.FC {
 							/>
 							<div className='flex flex-col justify-between'>
 								<p className='font-MontserratAlternates font-semibold'>
-									Sonny Apex
+									David Crypto Jackson
 								</p>
-								<p className='text-[12px]'>Founder, Apex AI</p>
+								<p className='text-[12px]'>Co-Founder, Green Tv DAO</p>
 							</div>
 						</div>
-					</a>
+					
 				</div>
 			</div>
 
@@ -233,12 +231,12 @@ export default function App(): React.FC {
 					below.
 				</p>
 				<div className='mt-8 md:mt-10 flex justify-center gap-2 font-Montserrat font-medium text-[13px]'>
-					<a href='#'>
+					<a href='https://t.me/abdominic1'>
 						<button className='transition rounded-full bg-green-600 text-white hover:text-green-600 hover:bg-white border border-green-600 px-2 md:px-3 py-3'>
 							Contact me
 						</button>
 					</a>
-					<a href='#'>
+					<a href='https://t.me/celestialchads'>
 						<button className='transition rounded-full text-green-600 hover:bg-green-600 hover:text-white border border-green-600 px-2 md:px-3 py-3'>
 							Join my community
 						</button>
@@ -282,10 +280,12 @@ export default function App(): React.FC {
 					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 						<img className='w-full' src={LinkedInLogo} />
 					</div>
+					
 					<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 						<img className='w-full' src={DiscordIcon} />
 					</div>
 				</div>
+				
 
 				<div className='text-center mt-8 text-sm font-medium font-MontserratAlternates'>
 					<p>
