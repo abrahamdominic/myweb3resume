@@ -41,7 +41,7 @@ const App: React.FC = () => (
           </button>
         </a>
       </div>
-      <div className='mt-5'>
+      <div className='mt-5 md:max-w-[50%]'>
         <img src={Icon} />
       </div>
     </div>
@@ -58,7 +58,7 @@ const App: React.FC = () => (
       </p>
     </div>
 
-    <div className='flex flex-wrap justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
+    <div className='flex flex-wrap items-start justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
       <div className='md:w-[45%] w-full text-center p-8 rounded-lg font-MontserratAlternates bg-white shadow-lg shadow-gray-400'>
         <p className='mb-3 text-xl font-semibold'>
           Prolific Brand and marketing strategy
@@ -112,7 +112,7 @@ const App: React.FC = () => (
       </p>
     </div>
 
-    <div className='flex flex-wrap justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
+    <div className='flex flex-wrap items-start justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
       <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
         <div className='w-full mb-5'>
           <img
@@ -170,7 +170,7 @@ const App: React.FC = () => (
       </p>
     </div>
 
-    <div className='flex flex-wrap justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
+    <div className='flex flex-wrap items-start justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
       <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates bg-white'>
         <img src={QuoteIcon} />
 

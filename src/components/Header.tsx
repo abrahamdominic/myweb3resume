@@ -60,45 +60,61 @@ const Header: React.FC<HeaderProps> = ({ active }) => {
         {/* DESKTOP NAV LINKS */}
         <div className='hidden md:block'>
           <ul className='flex gap-9'>
-            <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
-                activeLinks === 'home' && 'bg-white shadow-sm'
-              }`}
-              onClick={() => setInitialAction('home')}
-              onMouseOver={() => setActiveLinks('home')}
-              onMouseLeave={() => setActiveLinks(initialAction)}
-            >
-              <a href='#home-tab'>Home</a>
+            <li>
+              <a href='#home-tab'>
+                <div
+                  className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
+                    activeLinks === 'home' && 'bg-white shadow-sm'
+                  }`}
+                  onClick={() => setInitialAction('home')}
+                  onMouseOver={() => setActiveLinks('home')}
+                  onMouseLeave={() => setActiveLinks(initialAction)}
+                >
+                  Home
+                </div>
+              </a>
             </li>
-            <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
-                activeLinks === 'services' && 'bg-white shadow-sm'
-              }`}
-              onClick={() => setInitialAction('services')}
-              onMouseOver={() => setActiveLinks('services')}
-              onMouseLeave={() => setActiveLinks(initialAction)}
-            >
-              <a href='#services-tab'>Services</a>
+            <li>
+              <a href='#services-tab'>
+                <div
+                  className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
+                    activeLinks === 'services' && 'bg-white shadow-sm'
+                  }`}
+                  onClick={() => setInitialAction('services')}
+                  onMouseOver={() => setActiveLinks('services')}
+                  onMouseLeave={() => setActiveLinks(initialAction)}
+                >
+                  Services
+                </div>
+              </a>
             </li>
-            <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
-                activeLinks === 'threads' && 'bg-white shadow-sm'
-              }`}
-              onClick={() => setInitialAction('threads')}
-              onMouseOver={() => setActiveLinks('threads')}
-              onMouseLeave={() => setActiveLinks(initialAction)}
-            >
-              <a href='#threads-tab'>Threads</a>
+            <li>
+              <a href='#threads-tab'>
+                <div
+                  className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
+                    activeLinks === 'threads' && 'bg-white shadow-sm'
+                  }`}
+                  onClick={() => setInitialAction('threads')}
+                  onMouseOver={() => setActiveLinks('threads')}
+                  onMouseLeave={() => setActiveLinks(initialAction)}
+                >
+                  Threads
+                </div>
+              </a>
             </li>
-            <li
-              className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
-                activeLinks === 'reviews' && 'bg-white shadow-sm'
-              }`}
-              onClick={() => setInitialAction('reviews')}
-              onMouseOver={() => setActiveLinks('reviews')}
-              onMouseLeave={() => setActiveLinks(initialAction)}
-            >
-              <a href='#reviews-tab'>Reviews</a>
+            <li>
+              <a href='#reviews-tab'>
+                <div
+                  className={`font-MontserratAlternates font-semibold text-base transition-all duration-200 px-4 py-2.5 rounded-full shadow-gray-500 cursor-pointer ${
+                    activeLinks === 'reviews' && 'bg-white shadow-sm'
+                  }`}
+                  onClick={() => setInitialAction('reviews')}
+                  onMouseOver={() => setActiveLinks('reviews')}
+                  onMouseLeave={() => setActiveLinks(initialAction)}
+                >
+                  Reviews
+                </div>
+              </a>
             </li>
           </ul>
         </div>
