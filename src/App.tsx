@@ -222,7 +222,7 @@ export default function App(): React.FC {
 				</div>
 			</div>
 
-			<div className='mt-10 rounded-3xl text-center p-10 bg-white'>
+			<div className='mt-10 rounded-3xl md:rounded-none text-center p-10 bg-white'>
 				<p className='font-MontserratAlternates font-extrabold text-2xl'>
 					Now that you have been&nbsp;
 					<span className='text-green-600'>convinced,</span> hit any button
