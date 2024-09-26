@@ -121,17 +121,16 @@ export default function App(): React.FC {
 					<div className='mb-5 w-full'>
 						<img
 							className='object-contain object-center rounded-lg w-full'
-							src='https://ernestofweb3.netlify.app/images/Thread%201.jpeg'
+							src='/reviews/51attack.jpeg'
 						/>
 					</div>
 					<p className='text-xl mb-4 font-semibold'>
-						The Ultimate Job Hunting Strategy/Guide.
+						51% Attack How Blockchain can be Hacked.
 					</p>
 					<p className='text-sm'>
-						Here are 15 easy to navigate websites you can use to find
-						early projects while job hunting.
+						Here are ways a blockchain can be hacked and how to prevent it.
 					</p>
-					<a href='#'>
+					<a href='https://x.com/Abrahamdomenick/status/1836371771693433077'>
 						<button className='px-4 py-2 rounded-full bg-white border border-gray-200 shadow-md mt-5 font-Montserrat text-sm font-medium text-green-600'>
 							Learn More »
 						</button>
@@ -142,8 +141,9 @@ export default function App(): React.FC {
 					<div className='mb-5 w-full'>
 						<img
 							className='object-contain object-center rounded-lg w-full'
-							src='https://ernestofweb3.netlify.app/images/t2.jpeg'
+							src='/reviews/discord.jpeg'
 						/>
+						
 					</div>
 					<p className='text-xl mb-4 font-semibold'>
 						Discord Server Bot Series. Find out more from the thread.
@@ -210,7 +210,7 @@ export default function App(): React.FC {
 					<div className='flex gap-3 mt-2'>
 						<img
 							className='w-12 rounded-full'
-							src='/reviews/david-jackson.jpg'
+							src='/reviews/david-jackson.png'
 						/>
 						<div className='flex flex-col justify-between'>
 							<p className='font-MontserratAlternates font-semibold'>
@@ -269,22 +269,22 @@ export default function App(): React.FC {
 				</div>
 
 				<div className='mt-8 flex justify-evenly'>
-					<a href='https://twitter-link'>
+					<a href='https://x.com/abrahamdomenick'>
 						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 							<img className='w-full' src={TwitterIcon} />
 						</div>
 					</a>
-					<a href='https://telegram-link'>
+					<a href='https://t.me/abdominic1'>
 						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 							<img className='w-full' src={TelegramIcon} />
 						</div>
 					</a>
-					<a href='https://linkedin-link'>
+					<a href='https://linkedin.com/in/abrahamdominicnewton'>
 						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 							<img className='w-full' src={LinkedInLogo} />
 						</div>
 					</a>
-					<a href='https://discord-link'>
+					<a href='https://di'>
 						<div className='md:p-4 p-3 rounded-full bg-white md:w-16 w-12'>
 							<img className='w-full' src={DiscordIcon} />
 						</div>
