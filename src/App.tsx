@@ -163,12 +163,10 @@ const App: React.FC = () => (
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Discord Server Bot Series. Find out more from the thread.
+          Here is a thread about Base Ecosystem.
         </p>
         <p className='text-sm'>
-          Are you a Community Manager or Moderator who don't know how to set up
-          Discord bot in this thread you will find valuable insights on how to
-          set up a discord bots.
+          Have you been curious about Base Ecosystem? Everything you need to know about Base is in this thread.
         </p>
         <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
@@ -185,12 +183,10 @@ const App: React.FC = () => (
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Discord Server Bot Series. Find out more from the thread.
+          Do you want to start hunting on Base?.
         </p>
         <p className='text-sm'>
-          Are you a Community Manager or Moderator who don't know how to set up
-          Discord bot in this thread you will find valuable insights on how to
-          set up a discord bots.
+          Are you curious about where to find Base Projects? This thread is for you.
         </p>
         <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
@@ -203,18 +199,18 @@ const App: React.FC = () => (
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/discord.jpeg'
+            src='/reviews/opstack.jpeg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Discord Server Bot Series. Find out more from the thread.
+          Are you curious about what powers Base?.
         </p>
         <p className='text-sm'>
-          Are you a Community Manager or Moderator who don't know how to set up
-          Discord bot in this thread you will find valuable insights on how to
-          set up a discord bots.
+          Have you been struggling to understand what Optimism Rollups are in base.
+
+In this thread, I'll guide you step by step through what Optimism Rollups are and why they're important in the Base ecosystem. 
         </p>
-        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+        <a href='https://x.com/Abrahamdomenick/status/1829103856380240292'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
             Learn More »
           </button>
@@ -225,18 +221,16 @@ const App: React.FC = () => (
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/discord.jpeg'
+            src='/reviews/gemsofbase.jpeg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Discord Server Bot Series. Find out more from the thread.
+          Have you been wondering where to spot early base projects?
         </p>
         <p className='text-sm'>
-          Are you a Community Manager or Moderator who don't know how to set up
-          Discord bot in this thread you will find valuable insights on how to
-          set up a discord bots.
+          In this thread i shared tips on how to get early base projects.
         </p>
-        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+        <a href='https://x.com/Abrahamdomenick/status/1832001652263457178'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
             Learn More »
           </button>
