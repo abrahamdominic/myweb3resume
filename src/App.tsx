@@ -111,6 +111,8 @@ const App: React.FC = () => (
       </p>
     </div>
 
+    
+
     <div className='flex flex-wrap items-start justify-center w-full gap-10 px-8 mt-10 md:mt-16'>
       <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
         <div className='w-full mb-5'>
@@ -131,6 +133,139 @@ const App: React.FC = () => (
           </button>
         </a>
       </div>
+
+      <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
+        <div className='w-full mb-5'>
+          <img
+            className='object-contain object-center w-full rounded-lg'
+            src='/reviews/discord.jpeg'
+          />
+        </div>
+        <p className='mb-4 text-xl font-semibold'>
+          Discord Server Bot Series. Find out more from the thread.
+        </p>
+        <p className='text-sm'>
+          Are you a Community Manager or Moderator who don't know how to set up
+          Discord bot in this thread you will find valuable insights on how to
+          set up a discord bots.
+        </p>
+        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+          <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
+            Learn More »
+          </button>
+        </a>
+      </div>
+      <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
+        <div className='w-full mb-5'>
+          <img
+            className='object-contain object-center w-full rounded-lg'
+            src='/reviews/discord.jpeg'
+          />
+        </div>
+        <p className='mb-4 text-xl font-semibold'>
+          Discord Server Bot Series. Find out more from the thread.
+        </p>
+        <p className='text-sm'>
+          Are you a Community Manager or Moderator who don't know how to set up
+          Discord bot in this thread you will find valuable insights on how to
+          set up a discord bots.
+        </p>
+        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+          <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
+            Learn More »
+          </button>
+        </a>
+      </div>
+
+      <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
+        <div className='w-full mb-5'>
+          <img
+            className='object-contain object-center w-full rounded-lg'
+            src='/reviews/discord.jpeg'
+          />
+        </div>
+        <p className='mb-4 text-xl font-semibold'>
+          Discord Server Bot Series. Find out more from the thread.
+        </p>
+        <p className='text-sm'>
+          Are you a Community Manager or Moderator who don't know how to set up
+          Discord bot in this thread you will find valuable insights on how to
+          set up a discord bots.
+        </p>
+        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+          <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
+            Learn More »
+          </button>
+        </a>
+      </div>
+
+      <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
+        <div className='w-full mb-5'>
+          <img
+            className='object-contain object-center w-full rounded-lg'
+            src='/reviews/discord.jpeg'
+          />
+        </div>
+        <p className='mb-4 text-xl font-semibold'>
+          Discord Server Bot Series. Find out more from the thread.
+        </p>
+        <p className='text-sm'>
+          Are you a Community Manager or Moderator who don't know how to set up
+          Discord bot in this thread you will find valuable insights on how to
+          set up a discord bots.
+        </p>
+        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+          <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
+            Learn More »
+          </button>
+        </a>
+      </div>
+
+      <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
+        <div className='w-full mb-5'>
+          <img
+            className='object-contain object-center w-full rounded-lg'
+            src='/reviews/discord.jpeg'
+          />
+        </div>
+        <p className='mb-4 text-xl font-semibold'>
+          Discord Server Bot Series. Find out more from the thread.
+        </p>
+        <p className='text-sm'>
+          Are you a Community Manager or Moderator who don't know how to set up
+          Discord bot in this thread you will find valuable insights on how to
+          set up a discord bots.
+        </p>
+        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+          <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
+            Learn More »
+          </button>
+        </a>
+      </div>
+
+      <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
+        <div className='w-full mb-5'>
+          <img
+            className='object-contain object-center w-full rounded-lg'
+            src='/reviews/discord.jpeg'
+          />
+        </div>
+        <p className='mb-4 text-xl font-semibold'>
+          Discord Server Bot Series. Find out more from the thread.
+        </p>
+        <p className='text-sm'>
+          Are you a Community Manager or Moderator who don't know how to set up
+          Discord bot in this thread you will find valuable insights on how to
+          set up a discord bots.
+        </p>
+        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+          <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
+            Learn More »
+          </button>
+        </a>
+      </div>
+
+      
 
       <div className='md:w-[45%] w-full p-3 rounded-lg font-MontserratAlternates transition duration-300 bg-neutral-100 hover:bg-green-600'>
         <div className='w-full mb-5'>
