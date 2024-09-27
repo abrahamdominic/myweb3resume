@@ -159,16 +159,16 @@ const App: React.FC = () => (
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/discord.jpeg'
+            src='/reviews/whybase.jpeg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Here is a thread about Base Ecosystem.
+          Why you should build on Base.
         </p>
         <p className='text-sm'>
-          Have you been curious about Base Ecosystem? Everything you need to know about Base is in this thread.
+          Are you a Developer looking for the next trending blockchain to launch your project?
         </p>
-        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+        <a href='https://x.com/Abrahamdomenick/status/1829633900382945352'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
             Learn More »
           </button>
@@ -179,16 +179,16 @@ const App: React.FC = () => (
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/discord.jpeg'
+            src='/reviews/tradeonbase.jpeg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Do you want to start hunting on Base?.
+          Why you should trade on Base.
         </p>
         <p className='text-sm'>
-          Are you curious about where to find Base Projects? This thread is for you.
+          Have you thought about trading on base and you don't know where yo begin? In this thread i explained everything you need to know.
         </p>
-        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+        <a href='https://x.com/Abrahamdomenick/status/1829975625483878868'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
             Learn More »
           </button>
@@ -241,18 +241,16 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/discord.jpeg'
+            src='/reviews/onchain.jpeg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Discord Server Bot Series. Find out more from the thread.
+          Why Base is bringing everyone onchain.
         </p>
         <p className='text-sm'>
-          Are you a Community Manager or Moderator who don't know how to set up
-          Discord bot in this thread you will find valuable insights on how to
-          set up a discord bots.
+          Have you been curious about all the buzz surrounding base bringing everyone onchain? I explained everything you need to know about the mission of base in this thread.
         </p>
-        <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
+        <a href='https://x.com/Abrahamdomenick/status/1838859291928740252'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
             Learn More »
           </button>
@@ -265,16 +263,14 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/discord.jpeg'
+            src='/reviews/pos.jpeg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          Discord Server Bot Series. Find out more from the thread.
+          Pow vs Proof of Stake.
         </p>
         <p className='text-sm'>
-          Are you a Community Manager or Moderator who don't know how to set up
-          Discord bot in this thread you will find valuable insights on how to
-          set up a discord bots.
+          Have you been confuse about what is proof of work and proof of stake? Check it out.
         </p>
         <a href='https://x.com/Abrahamdomenick/status/1820772486100738329'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
