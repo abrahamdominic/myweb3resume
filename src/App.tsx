@@ -78,8 +78,7 @@ const App: React.FC = () => (
           Prolific writing Services. Threads &amp; Threads
         </p>
         <p className='text-sm'>
-          Masterful Web3 content creation, delivering impactful Threads &amp;
-          Threads.
+          Masterful Web3 content creation, delivering impactful Threads.
         </p>
         <img className='w-[70%] mx-auto mt-10' src='reviews/writer.svg' />
       </div>
@@ -107,8 +106,8 @@ const App: React.FC = () => (
       </p>
       <br />
       <p className='text-sm md:text-lg'>
-        Explore my latest Twitter threads for insights, tips, and opportunities
-        in the world of Web3 jobs.
+        Explore my latest (X) Twitter threads for insights, tips, and opportunities
+        in the world of Web3.
       </p>
     </div>
 
@@ -191,7 +190,7 @@ const App: React.FC = () => (
         <img src={QuoteIcon} />
 
         <p className='mt-5 mb-4 font-semibold text-md'>
-          “I love working with Dominic he's so good in what he does.”
+          “Collaborated with Dominic, who consistently delivered outstanding results and showcased remarkable professionalism.”
         </p>
 
         <div className='flex gap-3 mt-2'>
