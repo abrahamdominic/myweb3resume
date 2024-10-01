@@ -35,7 +35,7 @@ const App: React.FC = () => (
             Contact me
           </button>
         </a>
-        <a href='https://t.me/celestialchads'>
+        <a href='https://t.me/basepioneer'>
           <button className='px-2 py-3 text-green-600 transition border border-green-600 rounded-full hover:bg-green-600 hover:text-white md:px-3'>
             Join my community
           </button>
@@ -359,7 +359,7 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
             Contact me
           </button>
         </a>
-        <a href='https://t.me/celestialchads'>
+        <a href='https://t.me/basepioneer'>
           <button className='px-2 py-3 text-green-600 transition border border-green-600 rounded-full hover:bg-green-600 hover:text-white md:px-3'>
             Join my community
           </button>
