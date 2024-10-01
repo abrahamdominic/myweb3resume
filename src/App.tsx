@@ -409,12 +409,14 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
             <img className='w-full' src={LinkedInLogo} />
           </div>
         </a>
-        <a href='#'>
+        
+        <a href='https://abrahamdominic.hashnode.dev'>
           <div className='w-12 p-3 bg-white rounded-full md:p-4 md:w-16'>
             <img className='w-full' src={DiscordIcon} />
           </div>
         </a>
       </div>
+      
 
       <div className='mt-8 text-sm font-medium text-center font-MontserratAlternates'>
         <p>

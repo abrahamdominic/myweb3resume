@@ -1,10 +1,7 @@
-This is my web3 resume built using 
+My Web3 Resume
 
-- Html
-- Css
-- Javascript
-- Typescript
+- This site contains my portfolio in the web3 space
 
-- recent update on the homepage
+Preview the site here ⤵️
 
-This site will be hosting on Netlify
+https://abraham-domenick.netlify
