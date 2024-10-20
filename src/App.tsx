@@ -30,12 +30,12 @@ const App: React.FC = () => (
         within the crypto space.
       </p>
       <div className='mt-8 md:mt-10 flex gap-2 font-Montserrat font-medium text-[13px]'>
-        <a href='https://t.me/abdominic1'>
+        <a href='https://t.me/offixialabraham'>
           <button className='px-2 py-3 text-white transition bg-green-600 border border-green-600 rounded-full hover:text-green-600 hover:bg-white md:px-3'>
             Contact me
           </button>
         </a>
-        <a href='https://t.me/basepioneer'>
+        <a href='https://t.me/celestialchads'>
           <button className='px-2 py-3 text-green-600 transition border border-green-600 rounded-full hover:bg-green-600 hover:text-white md:px-3'>
             Join my community
           </button>
@@ -354,12 +354,12 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
         <span className='text-green-600'>convinced,</span> hit any button below.
       </p>
       <div className='mt-8 md:mt-10 flex justify-center gap-2 font-Montserrat font-medium text-[13px]'>
-        <a href='https://t.me/abdominic1'>
+        <a href='https://t.me/offixialabraham'>
           <button className='px-2 py-3 text-white transition bg-green-600 border border-green-600 rounded-full hover:text-green-600 hover:bg-white md:px-3'>
             Contact me
           </button>
         </a>
-        <a href='https://t.me/basepioneer'>
+        <a href='https://t.me/celestialchads'>
           <button className='px-2 py-3 text-green-600 transition border border-green-600 rounded-full hover:bg-green-600 hover:text-white md:px-3'>
             Join my community
           </button>
@@ -399,7 +399,7 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
             <img className='w-full' src={TwitterIcon} />
           </div>
         </a>
-        <a href='https://t.me/abdominic1'>
+        <a href='https://t.me/offixialabraham'>
           <div className='w-12 p-3 bg-white rounded-full md:p-4 md:w-16'>
             <img className='w-full' src={TelegramIcon} />
           </div>
