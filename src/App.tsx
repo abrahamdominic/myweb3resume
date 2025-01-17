@@ -420,7 +420,7 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
 
       <div className='mt-8 text-sm font-medium text-center font-MontserratAlternates'>
         <p>
-          &copy; <span className='font-semibold text-green-600'>2024</span>
+          &copy; <span className='font-semibold text-green-600'>2025</span>
           &nbsp;Abraham Domenick.
         </p>
         <p>All rights reserved.</p>
