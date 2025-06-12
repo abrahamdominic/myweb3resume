@@ -17,7 +17,7 @@ const App: React.FC = () => (
       <p className='mt-10 text-base font-Montserrat'>
         👋, I am&nbsp;
         <span className='font-medium text-green-500 font-MontserratAlternates'>
-          Abraham Domenick
+          Abraham Unchain
         </span>
         &nbsp; and I am a Prolific
       </p>
@@ -118,16 +118,18 @@ const App: React.FC = () => (
         <div className='w-full mb-5'>
           <img
             className='object-contain object-center w-full rounded-lg'
-            src='/reviews/51attack.jpeg'
+            src='/reviews/zktls.jpg'
           />
         </div>
         <p className='mb-4 text-xl font-semibold'>
-          A Blockchain can be Hacked by 51% Attack
+          ZkTLS 
         </p>
         <p className='text-sm'>
-          Here are ways a blockchain can be hacked and how to prevent it.
+        zkTLS
+
+Making the Internet More Private & Secure.
         </p>
-        <a href='https://x.com/Abrahamdomenick/status/1836371771693433077'>
+        <a href='https://x.com/abrahamunchain/status/1891240173427384327'>
           <button className='px-4 py-2 mt-5 text-sm font-medium text-green-600 bg-white border border-gray-200 rounded-full shadow-md font-Montserrat'>
             Learn More »
           </button>
@@ -369,7 +371,7 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
 
     <footer className='px-5 pb-10 text-center mt-28'>
       <p className='text-lg font-extrabold font-MontserratAlternates md:text-2xl'>
-        Abraham Domenick |&nbsp;
+        Abraham Unchain |&nbsp;
         <span className='font-Montserrat'>
           Web3&nbsp;
           <span className='text-green-600'>Enthusiast</span>
@@ -394,7 +396,7 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
       </div>
 
       <div className='flex mt-8 justify-evenly'>
-        <a href='https://x.com/abrahamdomenick'>
+        <a href='https://x.com/abrahamunchain'>
           <div className='w-12 p-3 bg-white rounded-full md:p-4 md:w-16'>
             <img className='w-full' src={TwitterIcon} />
           </div>
@@ -421,7 +423,7 @@ In this thread, I'll guide you step by step through what Optimism Rollups are an
       <div className='mt-8 text-sm font-medium text-center font-MontserratAlternates'>
         <p>
           &copy; <span className='font-semibold text-green-600'>2025</span>
-          &nbsp;Abraham Domenick.
+          &nbsp;Abraham Unchain.
         </p>
         <p>All rights reserved.</p>
       </div>
